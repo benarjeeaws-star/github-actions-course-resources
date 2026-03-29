@@ -1,10 +1,10 @@
-name: First Workflow
+name: My first github action workflow
 on: workflow_dispatch
 jobs:
-  first-job:
+  first-action-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
-        run: echo "Hello World!"
-      - name: Print goodbye
-        run: echo "Done - bye!"
+      - name: Run a one-line script
+        run: echo "Hello, world!"
+      - name: Run a exit code
+        run: echo "Thank you, Good Bye!" 
